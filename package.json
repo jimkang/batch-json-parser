@@ -1,0 +1,24 @@
+{
+  "name": "batch-json-parser",
+  "version": "1.0.0",
+  "description": "Parses JSON strings in batch for situations in which the profiler says you're calling JSON.parse too much.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/batch-json-parser.git"
+  },
+  "keywords": [],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/batch-json-parser/issues"
+  },
+  "homepage": "https://github.com/jimkang/batch-json-parser",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {}
+}
